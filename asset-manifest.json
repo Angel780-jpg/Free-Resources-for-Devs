@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Free-Resources-for-Devs/static/css/main.53ee250e.css",
-    "main.js": "/Free-Resources-for-Devs/static/js/main.1d268024.js",
+    "main.js": "/Free-Resources-for-Devs/static/js/main.0a0eb899.js",
     "index.html": "/Free-Resources-for-Devs/index.html",
     "main.53ee250e.css.map": "/Free-Resources-for-Devs/static/css/main.53ee250e.css.map",
-    "main.1d268024.js.map": "/Free-Resources-for-Devs/static/js/main.1d268024.js.map"
+    "main.0a0eb899.js.map": "/Free-Resources-for-Devs/static/js/main.0a0eb899.js.map"
   },
   "entrypoints": [
     "static/css/main.53ee250e.css",
-    "static/js/main.1d268024.js"
+    "static/js/main.0a0eb899.js"
   ]
 }
