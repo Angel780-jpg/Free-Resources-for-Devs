@@ -16,7 +16,7 @@ This repository is also designed to be **beginner-friendly**, making it a perfec
 ##  Technologies Used
 
 - React.js (JSX)
-- CSS3 (Flexbox & Grid)
+- CSS
 - GitHub Pages
 
 ##  How to Run Locally
@@ -28,8 +28,9 @@ This repository is also designed to be **beginner-friendly**, making it a perfec
    ```bash
    cd free-resources-for-devs
 3. Install dependencies:
-  
+     ```bash
     npm install
+      ```
 4. Start the development server:
     ```bash
    npm start
@@ -45,9 +46,15 @@ We welcome contributions from everyone! Whether you're a beginner or an experien
    ```bash
     git checkout -b add-new-resource
    ```
-4. Open src/App.js
-5. Find the <div className="cards-container">
-6. Add your resource using this structure:
+3. Open
+   ```bash
+   src/App.js
+    ```
+4. Find the
+   ```bash
+   <div className="cards-container">
+   ```
+5. Scroll down until you find the following structure:
 ```bash
 {shouldShowCard(
           "Name of the resource",
@@ -61,8 +68,9 @@ We welcome contributions from everyone! Whether you're a beginner or an experien
           />
         )}
 ```
+Copy the structure, paste it below, and modify the data.
 
-Note: Separate multiple tags with / (slash)
+**Note:** Separate multiple tags with / (slash)
 
 6. Commit your changes and push them:
 ```bash
@@ -93,7 +101,7 @@ We accept 100% free resources such as:
 -  Documentation and cheat sheets
 -  Open-source libraries
 
-## Made with love  for the developer community Thank you for contributing!
+## Made with love for the developer community Thank you for contributing!
 
 
 
