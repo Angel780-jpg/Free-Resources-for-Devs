@@ -17,6 +17,7 @@ This repository is also designed to be **beginner-friendly**, making it a perfec
 
 - React.js (JSX)
 - CSS
+- JavaScript 
 - GitHub Pages
 
 ##  How to Run Locally
