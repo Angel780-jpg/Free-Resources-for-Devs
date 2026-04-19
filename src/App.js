@@ -34,7 +34,6 @@ function App() {
             link="https://www.figma.com/"
           />
         )}
-
         {shouldShowCard("freeCodeCamp", "programming") && (
           <Card
             title="freeCodeCamp"
@@ -44,7 +43,6 @@ function App() {
             link="https://www.freecodecamp.org/"
           />
         )}
-
         {shouldShowCard("Canva", "design") && (
           <Card
             title="Canva"
@@ -54,7 +52,6 @@ function App() {
             link="https://www.canva.com/"
           />
         )}
-
         {shouldShowCard("Codewars", "programming") && (
           <Card
             title="Codewars"
@@ -64,7 +61,6 @@ function App() {
             link="https://www.codewars.com/"
           />
         )}
-
         {shouldShowCard("Inkscape", "design") && (
           <Card
             title="Inkscape"
@@ -73,7 +69,6 @@ function App() {
             link="https://inkscape.org/"
           />
         )}
-
         {shouldShowCard("Flaticon", "design/icons") && (
           <Card
             title="Flaticon"
@@ -83,7 +78,6 @@ function App() {
             link="https://www.flaticon.com/"
           />
         )}
-
         {shouldShowCard("Pixabay", "design/images") && (
           <Card
             title="Pixabay"
@@ -92,7 +86,6 @@ function App() {
             link="https://pixabay.com/"
           />
         )}
-
         {shouldShowCard("W3Schools", "courses/programming") && (
           <Card
             title="W3Schools"
@@ -102,7 +95,6 @@ function App() {
             link="https://www.w3schools.com/"
           />
         )}
-
         {shouldShowCard("Phosphor Icons", "icons") && (
           <Card
             title="Phosphor Icons"
@@ -111,13 +103,24 @@ function App() {
             link="https://phosphoricons.com/"
           />
         )}
-
         {shouldShowCard("Lucide Icons", "icons") && (
           <Card
             title="Lucide Icons"
             desc="Minimalist, customizable open-source icons (fork of Feather Icons)."
             tags="icons"
             link="https://lucide.dev/"
+          />
+        )}
+
+        {shouldShowCard(
+          "Name of the resource",
+          "write the tag here/write the tag here",
+        ) && (
+          <Card
+            title="Name of the resource"
+            desc="writte a description of the resource"
+            tags="write the tag here / write the tag here "
+            link="put the resource link here"
           />
         )}
       </div>
